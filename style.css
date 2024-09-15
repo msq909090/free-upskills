@@ -1,0 +1,129 @@
+.ends {
+    background-color:#ff6f69;
+    color:white !important;
+    width: 100% !important;
+}
+
+a
+{
+color: white !important;
+}
+
+p {
+letter-spacing:0.1rem;
+font-family: "Quicksand", sans-serif;
+}
+
+li
+{
+    letter-spacing:0.1rem;
+    font-family: "Quicksand", sans-serif;
+    }
+span{
+    letter-spacing:0.15rem;;
+    
+}
+    
+  
+  
+  body {
+    background-color: #d6d4e0 !important;
+    
+  }
+  
+  .bubble {
+    z-index: 15;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    .circle {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 50%;
+      background: rgba(12, 12, 12, 0.02);
+      &:nth-of-type(1) {
+        width: 200px;
+        height: 180px;
+        animation: rt 6s infinite linear;
+        box-shadow: 0 0 1px 0 blueviolet,
+                    inset 0 0 10px 0 blueviolet;
+      }
+      &:nth-of-type(2) {
+        width: 180px;
+        height: 200px;
+        animation: rt 10s infinite linear;
+        box-shadow: 0 0 1px 0 darkviolet,
+                    inset 0 0 10px 0 darkviolet;
+      }
+      &:nth-of-type(3) {
+        width: 210px;
+        height: 190px;
+        animation: rt 5s infinite linear;
+        box-shadow: 0 0 1px 0 darkmagenta,
+                    inset 0 0 10px 0 darkmagenta;
+      }
+      &:nth-of-type(4) {
+        width: 190px;
+        height: 210px;
+        animation: rt 15s infinite linear;
+        box-shadow: 0 0 1px 0 magenta,
+                    inset 0 0 10px 0 magenta;
+      }
+    }
+  }
+  
+  @keyframes rt {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+  .nav-item:hover {
+    background-color: tomato;
+  }
+
+  .top {
+    background-image: url("./tree.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+color:white;
+    width:100%
+  }
+
+  h1 {
+    font-family: "Texturina", serif;
+  }
+
+  .txt {
+    color: rgb(206, 158, 245);
+  }
+
+  .prob {
+    position: relative;
+    padding-bottom:0px !important;
+    top:24%;
+  }
+
+  .links a {
+    margin:1rem;
+    color:blue !important;
+    word-wrap: break-word;
+  }
+  
+  .headbar {
+    position:fixed;
+    z-index:10;
+    width:100%;
+    
+  }
